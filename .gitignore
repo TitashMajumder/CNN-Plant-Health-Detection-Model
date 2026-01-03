@@ -1,6 +1,21 @@
+# Environment & secrets
 .env
-\venv
-\keras_tuner_dir
-\health_classifier
-\CNN Model
+venv/
+
+# ML artifacts
 *.h5
+*.keras
+*.onnx
+*.pt
+
+# Training outputs
+keras_tuner_dir/
+health_classifier/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
