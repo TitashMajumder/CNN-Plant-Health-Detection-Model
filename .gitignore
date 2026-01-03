@@ -2,4 +2,5 @@
 \venv
 \keras_tuner_dir
 \health_classifier
-.h5
+\CNN Model
+*.h5
