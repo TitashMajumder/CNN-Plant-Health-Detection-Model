@@ -7,3 +7,4 @@ Pillow==12.0.0
 Pandas==2.3.3
 scikit-learn
 matplotlib
+seaborn
