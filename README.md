@@ -1,23 +1,23 @@
-🌿🌳 CNN-Based Plant Health Detection System
+**🌿🌳 CNN-Based Plant Health Detection System**
 A deep learning–based plant health monitoring system that uses Convolutional Neural Networks (CNNs) to detect diseases and stress conditions from both plant leaves and tree trunks.
 Built with TensorFlow & Keras, the system aims to support early disease detection in agriculture and forestry.
 
 ---
 
-🚀 Project Overview
+**🚀 Project Overview**
 Plant diseases often appear on leaves (spots, discoloration, texture changes) as well as tree trunks (fungal growth, cracks, bark decay).
 This project extends traditional leaf-based classification by supporting multi-surface plant analysis, making it suitable for real-world agricultural and forestry applications.
 
 ---
 
-✅ What This Model Can Detect
+**✅ What This Model Can Detect**
 Healthy vs diseased leaves
 Visible disease/stress patterns on tree trunks
 Multiple disease classes using image-based classification
 
 ---
 
-🧠 Why CNNs?
+**🧠 Why CNNs?**
 Convolutional Neural Networks are ideal for this task because they:
 Automatically extract visual features (texture, edges, patterns)
 Work well on complex biological images
@@ -26,7 +26,7 @@ Reduce dependency on manual feature engineering
 
 ---
 
-🖥️ Hardware Requirements & GPU Support
+**🖥️ Hardware Requirements & GPU Support**
 This project supports both CPU and GPU execution. GPU acceleration is highly recommended for faster training and experimentation.
 
 ✅ Minimum Hardware Requirements (CPU)
@@ -47,7 +47,7 @@ Storage	SSD recommended
 
 ---
 
-🛠️ Technologies Used & Why
+**🛠️ Technologies Used & Why**
 🔹 Core Deep Learning
 TensorFlow 2.10.0 - Provides a stable and production-ready framework for building and training CNN models.
 Keras 2.10.0 - Simplifies neural network design and integrates seamlessly with TensorFlow.
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ---
 
-📂 Project Structure
+**📂 Project Structure**
 CNN-Plant-Health-Detection-Model/
 ├── Utils/
 │   └── ImgNameChanger.py        # Dataset preprocessing utility
@@ -85,7 +85,7 @@ CNN-Plant-Health-Detection-Model/
 
 ---
 
-🗂️ Dataset Directory Structure
+**🗂️ Dataset Directory Structure**
 Organize your dataset as follows:
 health_classifier/
 ├── train/
@@ -101,7 +101,7 @@ diseased/ contains both diseased leaves and diseased trunks
 
 ---
 
-📸 Image Collection Guidelines
+**📸 Image Collection Guidelines**
 Healthy Class
 Include:
 Healthy leaves (normal color, no spots)
@@ -156,7 +156,7 @@ Mixing field and lab images
 
 ---
 
-🧪 How It Works
+**🧪 How It Works**
 Image Input
 Leaf images (spots, discoloration, curling)
 Trunk images (bark damage, fungal growth, decay)
@@ -176,7 +176,7 @@ Provides confidence score for reliability
 
 ---
 
-📊 Key Features
+**📊 Key Features**
 ✔ Leaf and trunk disease detection
 ✔ CNN-based deep learning model
 ✔ Hyperparameter tuning support
@@ -185,7 +185,7 @@ Provides confidence score for reliability
 
 ---
 
-👤 Author
+**👤 Author**
 Titash Majumder
 B.Tech – Information Technology
 RCC Institute Of Information Technology
