@@ -52,22 +52,22 @@ This project supports both CPU and GPU execution. GPU acceleration is highly rec
 ---
 
 ### 🛠️ Technologies Used & Why
-**🔹 Core Deep Learning**
+**Core Deep Learning**
 - **TensorFlow 2.10.0** - Provides a stable and production-ready framework for building and training CNN models.
 - **Keras 2.10.0** - Simplifies neural network design and integrates seamlessly with TensorFlow.
   
-**🔹 Model Optimization**
+**Model Optimization**
 - **Keras-Tuner 1.4.8** - Used to tune CNN hyperparameters (filters, learning rate, kernel size) to improve classification accuracy.
 
-**🔹 Image Processing**
+**Image Processing**
 - **Pillow 12.0.0** - Used for loading, resizing, and preprocessing leaf and trunk images.
   
-**🔹 Data Handling & Computation**
+**Data Handling & Computation**
 - **NumPy 1.23.5** – Efficient numerical operations
 - **SciPy 1.15.3** – Scientific computing support
 - **Pandas 2.3.3** – Label handling and dataset management
 
-**🔹 Evaluation & Visualization**
+**Evaluation & Visualization**
 - **scikit-learn** – Metrics, data splitting, evaluation
 - **matplotlib** – Training & validation graphs
 - **seaborn** – Confusion matrices and heatmaps
