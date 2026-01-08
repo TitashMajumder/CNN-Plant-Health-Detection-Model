@@ -1,4 +1,5 @@
 **🌿🌳 CNN-Based Plant Health Detection System**
+
 A deep learning–based plant health monitoring system that uses Convolutional Neural Networks (CNNs) to detect diseases and stress conditions from both plant leaves and tree trunks.
 Built with TensorFlow & Keras, the system aims to support early disease detection in agriculture and forestry.
 
